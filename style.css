@@ -1,0 +1,55 @@
+<style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+	  
+    }
+
+    h2 {
+      text-align: left;
+      color: black;
+    }
+
+    table {
+      border-collapse: collapse;
+      /*width: 45%;
+      margin: 15px;
+      float: left; /* Places tables side by side */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0073e6;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Table 1 Header Colors */
+    .table1 th:nth-child(1) { background-color: #4682B4; } /* Product */
+    .table1 th:nth-child(2) { background-color: #5F9EA0; } /* Price */
+    .table1 th:nth-child(3) { background-color: #B0C4DE; } /* Quantity */
+    .table1 th:nth-child(4) { background-color: #87CEEB; } /* Total */
+
+    /* Table 2 Header Colors */
+    .table2 th:nth-child(1) { background-color: #0047AB; } /* Farm Owner */
+    .table2 th:nth-child(2) { background-color: #4169E1; } /* Location */
+    .table2 th:nth-child(3) { background-color: #6495ED; } /* Contacts */
+    .table2 th:nth-child(4) { background-color: #1E90FF; } /* Products */
+
+    /* Alternate Row Colors */
+    tr:nth-child(even) {
+      background-color: #E0F7FA;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #B3E5FC;
+    }
+  </style>
